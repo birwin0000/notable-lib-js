@@ -1,5 +1,5 @@
 {
-  "name": "notable-lib",
+  "name": "@birwin/notable-lib",
   "version": "0.0.1",
   "description": "Javascript Libraries",
   "main": "index.js",
@@ -19,5 +19,6 @@
   "devDependencies": {
     "jasmine": "^3.6.1",
     "jsdom": "^16.3.0"
-  }
+  },
+  "types": "types/index.d.ts"
 }
