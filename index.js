@@ -36,7 +36,7 @@ module.exports.loadCSS = (url, resolve, reject) => {
     });
 };
 
-module.exports.copyToClipboard = (strToCopy) {
+module.exports.copyToClipboard = (strToCopy) => {
     var tarea = document.createElement("textarea");
     tarea.value = strToCopy;
     tarea.focus();
