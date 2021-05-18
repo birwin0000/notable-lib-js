@@ -56,7 +56,7 @@ module.exports.copyToClipboard = (strToCopy) => {
  * 
  * @param {*} maps Maps to resize. Defaults to all maps 
  */
-module.exports.mapResizer = (maps) {
+module.exports.mapResizer = (maps) => {
     if (!maps) {maps = document.getElementsByTagName('map');}
     for (const map of maps) {
         map.img = document.querySelectorAll(`[usemap="#${map.name}"]`)[0];
